@@ -1,1 +1,5 @@
 node_modules/
+public/main.js
+public/main.map.js
+public/styles.css
+public/styles.map.css
