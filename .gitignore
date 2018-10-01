@@ -1,5 +1,5 @@
 node_modules/
 public/main.js
-public/main.map.js
+# public/main.js.map
 public/styles.css
-public/styles.map.css
+# public/styles.css.map
