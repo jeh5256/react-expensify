@@ -54,7 +54,6 @@ export default class ExpenseForm extends React.Component {
             }));
 
         } else {
-            console.log('submitted');
             this.setState(() => ({ error: '' }));
             this.props.onSubmit({
                 description: this.state.description,
@@ -90,8 +89,6 @@ export default class ExpenseForm extends React.Component {
                         onFocusChange={this.onFocusChange}
                         numberOfMonths={1}
                         isOutsideRange={() => false}
-                        startDateId="1"
-                        endDateId="1"
                     />
                     <textarea 
                         value={this.state.note}

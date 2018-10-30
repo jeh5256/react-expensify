@@ -8,5 +8,8 @@ exports[`Should render AddExpensePage correctly 1`] = `
   <ExpenseForm
     onSubmit={[Function]}
   />
+  <button>
+    Add Expense
+  </button>
 </div>
 `;
