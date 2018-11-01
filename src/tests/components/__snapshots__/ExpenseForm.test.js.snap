@@ -112,6 +112,9 @@ exports[`Should render ExpenseForm correctly 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
+    <button>
+      Add Expense
+    </button>
   </form>
 </div>
 `;
@@ -228,6 +231,9 @@ exports[`Should render ExpenseForm correctly with data 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
+    <button>
+      Add Expense
+    </button>
   </form>
 </div>
 `;
@@ -347,6 +353,9 @@ exports[`Should render error for invalid form submisson 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
+    <button>
+      Add Expense
+    </button>
   </form>
 </div>
 `;
